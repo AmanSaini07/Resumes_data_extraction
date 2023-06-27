@@ -1,0 +1,14 @@
+In the digital age, there are countless resume templates available to job seekers. 
+These templates are pre-designed formats that provide a structured framework for organizing and presenting your skills, experience, and qualifications. 
+They can be found in various formats such as Microsoft Word documents, PDFs, and online resume builders.
+While countless resume templates offer convenience and structure, remember that they should serve as a starting point. 
+It's crucial to personalize and tailor your resume to highlight your specific skills, achievements, and suitability for the desired job. 
+A well-crafted, customized resume will make a lasting impression on recruiters and increase your chances of securing interviews and job offers.
+
+
+In file resume_data_extraction 
+it convert all the .doc and .docx files in the pdf through the pdfplumber or pdfreader or docx2pdf library
+After converting them all in the pdf it will start extracting the infromation from the resumes.
+like Email, Mobile, Gender, Qualifications, Personal Information, Experience and other information from the resumes.
+After extraction of data it will store the data in the csv file format
+and we have to filter that file to reterieve clean data of resumes.
